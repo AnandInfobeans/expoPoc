@@ -28,7 +28,7 @@ export default function App() {
     <View style={styles.container}>
       <Text
         style={styles.txt}
-      >{`Hii , This update from EXPO (OTA) branch build!`}</Text>
+      >{`Hii , This update from EXPO (OTA) branch build`}</Text>
       <Image source={require("./assets/reactlogo.png")} style={styles.img} />
       <StatusBar style="auto" />
     </View>
