@@ -9,5 +9,4 @@ jobs:
     name: Publish preview update
     type: update
     params:
-      platform: android
-      profile: preview
+      branch: ${{ github.ref_name || 'test' }}
