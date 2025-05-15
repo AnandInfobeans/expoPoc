@@ -9,5 +9,5 @@ jobs:
     name: Publish preview update
     type: update
     params:
-      branch: updates
+      branch: preview
       platform: android
