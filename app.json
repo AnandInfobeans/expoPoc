@@ -3,7 +3,7 @@
     "name": "expoPoc",
     "slug": "expoPoc",
     "version": "1.0.0",
-    "owner":"AnandInfobeans",
+    "owner":"anand.infobeans",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
