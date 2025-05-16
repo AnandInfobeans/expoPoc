@@ -12,6 +12,9 @@ const Profile: React.FC<Props> = ({ navigation }) => {
       <Pressable onPress={() => navigation.goBack()} style={styles.btn}>
         <Text style={styles.btnTxt}>Back</Text>
       </Pressable>
+      <Pressable onPress={() => navigation.navigate("Next")} style={styles.btn}>
+        <Text style={styles.btnTxt}>Next</Text>
+      </Pressable>
     </View>
   );
 };
