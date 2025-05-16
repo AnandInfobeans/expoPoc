@@ -8,7 +8,7 @@ type Props = NativeStackScreenProps<RootStackParamList, "Home">;
 const Home: React.FC<Props> = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.txt}>Home</Text>
+      <Text style={styles.txt}>Home!</Text>
       <Pressable
         onPress={() => navigation.navigate("Profile")}
         style={styles.btn}
