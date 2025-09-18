@@ -22,7 +22,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.anand.infobeans.expoPoc"
+      "package": "com.easybuy"
     },
     "web": {
       "favicon": "./assets/favicon.png"
