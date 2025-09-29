@@ -2,12 +2,12 @@ name: Create preview build
 
 on:
   push:
-    branches: ["build"]
+    branches: ["build", "develop_new"]
 
 jobs:
-  android_preview_build:
+  android_production_build:
     name: Build Android
     type: build
     params:
       platform: android
-      profile: preview
+      profile: production

@@ -3,15 +3,15 @@
     "name": "expoPoc",
     "slug": "expoPoc",
     "version": "1.0.0",
-    "owner":"anand.infobeans",
+    "owner": "anand.infobeans",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/com.easyBuy.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/com.easyBuy.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0000"
     },
     "ios": {
       "supportsTablet": true
@@ -22,7 +22,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.easybuy"
+      "package": "com.easyBuy"
     },
     "web": {
       "favicon": "./assets/favicon.png"
