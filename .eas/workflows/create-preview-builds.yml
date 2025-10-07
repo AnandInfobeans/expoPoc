@@ -2,7 +2,7 @@ name: Create preview build
 
 on:
   push:
-    branches: ["build", "develop_new"]
+    branches: ["build"]
 
 jobs:
   android_production_build:

@@ -1,5 +1,5 @@
 {
-  "name": "expopoc",
+  "name": "expoPoc",
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
@@ -8,9 +8,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "build-android": "eas build --platform android --profile production",
-    "ota": "eas update --channel preview --message 'Your update message here'",
-    "build:easyBuy": "node scripts/update-package.js com.easyBuy && yarn build-android",
-    "build:quickBuy": "node scripts/update-package.js com.quickBuy && yarn build-android"
+    "ota": "eas update --channel production --message 'New OTA update'",
+    "build:easyBuy": "node scripts/update-package.js Easy && yarn build-android",
+    "build:quickBuy": "node scripts/update-package.js Quick && yarn build-android"
   },
   "dependencies": {
     "@react-navigation/elements": "^2.4.2",

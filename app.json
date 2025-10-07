@@ -1,28 +1,28 @@
 {
   "expo": {
-    "name": "expoPoc",
+    "name": "Quick Buy",
     "slug": "expoPoc",
     "version": "1.0.0",
     "owner": "anand.infobeans",
     "orientation": "portrait",
-    "icon": "./assets/com.easyBuy.png",
+    "icon": "./assets/quickBuy.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/com.easyBuy.png",
+      "image": "./assets/quickBuy.png",
       "resizeMode": "contain",
-      "backgroundColor": "#0000"
+      "backgroundColor": "#1A3B69"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/quickBuy.png",
+        "backgroundColor": "#1A3B69"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.easyBuy"
+      "package": "com.quickBuy"
     },
     "web": {
       "favicon": "./assets/favicon.png"
